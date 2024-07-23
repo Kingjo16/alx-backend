@@ -8,7 +8,6 @@ class BasicCache(BaseCaching):
 
     def put(self, key, value):
         """Add an item to the cache.
-        
         Args:
             key: The key under which the item is stored.
             value: The item to store in the cache.
